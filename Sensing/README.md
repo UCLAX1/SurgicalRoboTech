@@ -17,12 +17,15 @@ All instructions will be for macOS/Linux
 `source venv/bin/activate`
 
 You should see the name of your virtual environment in the terminal
+
 4. Install openCV:
 
 `pip install opencv-python`
+
 5. Install mediapipe: 
 
 `pip install mediapipe`
+
 6. Open Project folder (dragging works) in your IDE/text editor of choice
 7. Select virtual environment (the one you just created should show up as an existing environment)
 8. Download `handTracking.py` and place it into the project folder base (not in the venv)
