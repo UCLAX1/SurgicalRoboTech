@@ -8,9 +8,10 @@ All instructions will be for macOS/Linux
 (this assumes that you have python (version 3.10 tested), anaconda, brew, and xcode cmd line tools installed)
 
 1. Navigate to project directiory
-2. Create a python virtual environment:
+2. Create a python virtual environment: 
 
 `python -m venv venv`
+
 3. Activate python virtual environment: 
 
 `source venv/bin/activate`
