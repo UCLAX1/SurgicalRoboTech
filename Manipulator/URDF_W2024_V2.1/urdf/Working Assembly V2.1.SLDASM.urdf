@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Working Assembly V2.1.SLDASM">
+  <link
+    name="T6">
+    <inertial>
+      <origin
+        xyz="-0.14795 0.11067 0.019734"
+        rpy="0 0 0" />
+      <mass
+        value="0.26225" />
+      <inertia
+        ixx="0.00045296"
+        ixy="-2.3318E-05"
+        ixz="-6.1982E-06"
+        iyy="0.00093458"
+        iyz="-3.1114E-05"
+        izz="0.0006324" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/T6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.11373 0.11373 0.11373 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/T6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="T5">
+    <inertial>
+      <origin
+        xyz="0.0016373 0.011245 0.0015344"
+        rpy="0 0 0" />
+      <mass
+        value="0.3103" />
+      <inertia
+        ixx="0.00028635"
+        ixy="2.7089E-19"
+        ixz="2.3056E-05"
+        iyy="0.00048997"
+        iyz="-6.7763E-21"
+        izz="0.00025325" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/T5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/T5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J5"
+    type="revolute">
+    <origin
+      xyz="-0.14835 -0.0037019 0.13208"
+      rpy="1.771 0.040967 -3.1351" />
+    <parent
+      link="T6" />
+    <child
+      link="T5" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="T4">
+    <inertial>
+      <origin
+        xyz="-0.12017 0.011766 0.011157"
+        rpy="0 0 0" />
+      <mass
+        value="0.22589" />
+      <inertia
+        ixx="7.5572E-05"
+        ixy="9.8256E-20"
+        ixz="3.1707E-05"
+        iyy="0.00075517"
+        iyz="0"
+        izz="0.00071335" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/T4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/T4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J4"
+    type="revolute">
+    <origin
+      xyz="0 0.05 0"
+      rpy="2.2891 0.80423 -1.0089" />
+    <parent
+      link="T5" />
+    <child
+      link="T4" />
+    <axis
+      xyz="0.58701 0.80958 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="T3">
+    <inertial>
+      <origin
+        xyz="0.042202 0.027104 1.6653E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.072229" />
+      <inertia
+        ixx="6.2114E-05"
+        ixy="-6.7763E-21"
+        ixz="1.567E-20"
+        iyy="1.954E-05"
+        iyz="-1.0651E-19"
+        izz="4.8921E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/T3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/T3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J3"
+    type="revolute">
+    <origin
+      xyz="-0.33971 0.084766 0.08002"
+      rpy="1.7063 1.5708 -0.32175" />
+    <parent
+      link="T4" />
+    <child
+      link="T3" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="T2">
+    <inertial>
+      <origin
+        xyz="2.7756E-16 -2.9143E-16 0.05"
+        rpy="0 0 0" />
+      <mass
+        value="0.048948" />
+      <inertia
+        ixx="4.2786E-05"
+        ixy="3.3881E-21"
+        ixz="3.0705E-20"
+        iyy="4.2786E-05"
+        iyz="1.2176E-20"
+        izz="3.9927E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/T2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/T2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J2"
+    type="revolute">
+    <origin
+      xyz="0.041224 -0.0446 -0.003429"
+      rpy="1.5708 -1.1721 0" />
+    <parent
+      link="T3" />
+    <child
+      link="T2" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="T1">
+    <inertial>
+      <origin
+        xyz="0.021004 -0.0019099 0.02768"
+        rpy="0 0 0" />
+      <mass
+        value="0.073971" />
+      <inertia
+        ixx="2.5017E-05"
+        ixy="2.6049E-07"
+        ixz="4.673E-08"
+        iyy="1.6583E-05"
+        iyz="-1.3321E-06"
+        izz="1.4571E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/T1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/T1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J1"
+    type="revolute">
+    <origin
+      xyz="-0.047526 0.024517 0.13995"
+      rpy="-0.8249 0 -1.5708" />
+    <parent
+      link="T2" />
+    <child
+      link="T1" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Gripper">
+    <inertial>
+      <origin
+        xyz="0 0.023 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.021313" />
+      <inertia
+        ixx="4.649E-06"
+        ixy="2.4418E-21"
+        ixz="-4.4205E-21"
+        iyy="1.7817E-06"
+        iyz="-2.647E-21"
+        izz="4.649E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/Gripper.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Working Assembly V2.1.SLDASM/meshes/Gripper.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J0"
+    type="revolute">
+    <origin
+      xyz="0.024209 -0.088437 0.039394"
+      rpy="0 0.54617 0" />
+    <parent
+      link="T1" />
+    <child
+      link="Gripper" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>
