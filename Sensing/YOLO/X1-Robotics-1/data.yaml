@@ -1,0 +1,14 @@
+names:
+- Black Plain Pliers
+- Black-Yellow Pliers
+- Blue Pliers
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: x1-robotics
+  url: https://universe.roboflow.com/x1-robotics/x1-robotics/dataset/1
+  version: 1
+  workspace: x1-robotics
+test: test/images
+train: train/images
+val: valid/images
