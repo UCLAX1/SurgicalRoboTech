@@ -14,7 +14,7 @@ cam = cv2.VideoCapture(0)
 # while True:
 result, image = cam.read()
 # cv2.imshow("image",image)
-results = model.predict(source="people.jpg")  # generator of Results objects
+results = model.predict(source=image)  # generator of Results objects
 # cv2.imshow("results", results)
 vip_Boxes = []
 temp = ""
@@ -30,7 +30,7 @@ probs = results[0].probs  # Class probabilities for classification outputs
 for box in boxes:
     if(box.cls == 0): # index 0 is human
         vip_Boxes.append(box)
-print("number of boxes: " + str(len(boxes)))
+print("number of vip boxes: " + str(len(vip_Boxes)))
 for box in vip_Boxes:
     # each box results in a format that looks something like this: tensor([[   0.0000,  384.7042, 2876.7173, 3832.7683]])
     str_box = str(box.xyxy)
@@ -71,7 +71,7 @@ for coordinate in formatted_coords:
             temp = ''
             coord_floats.append(float_temp)
         #     comma means end of coordinate so built temp is converted to float and added to array of float
-print("float length: " + str(len(coord_floats)) + "    debug: correct length - " + str(len(boxes) * 4))
+print("float length: " + str(len(coord_floats)) + "    debug: correct length - " + str(len(vip_Boxes) * 4))
 # print("coord_floats: " + str(coord_floats))
 # currently a bit of a mess when it does like a lot of people at the same time & no center point yet
 
@@ -93,5 +93,5 @@ for index in range(len(coord_floats)): # calculates center points
         center_points.append(coordinate)
         index_counter = 0
 # center_points is an array of center point floats
-print("number of center points: " + str(len(center_points)) + "    debug: correct length - " + str(len(boxes)))
+print("number of center points: " + str(len(center_points)) + "    debug: correct length - " + str(len(vip_Boxes)))
 print("center points: " + str(center_points))
