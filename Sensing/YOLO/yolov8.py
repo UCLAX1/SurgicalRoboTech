@@ -71,7 +71,7 @@ for coordinate in formatted_coords:
             temp = ''
             coord_floats.append(float_temp)
         #     comma means end of coordinate so built temp is converted to float and added to array of float
-print("float length: " + str(len(coord_floats)))
+print("float length: " + str(len(coord_floats)) + "    debug: correct length - " + str(len(boxes) * 4))
 # print("coord_floats: " + str(coord_floats))
 # currently a bit of a mess when it does like a lot of people at the same time & no center point yet
 
@@ -93,5 +93,5 @@ for index in range(len(coord_floats)): # calculates center points
         center_points.append(coordinate)
         index_counter = 0
 # center_points is an array of center point floats
-print("number of center points: " + str(len(center_points)))
+print("number of center points: " + str(len(center_points)) + "    debug: correct length - " + str(len(boxes)))
 print("center points: " + str(center_points))
