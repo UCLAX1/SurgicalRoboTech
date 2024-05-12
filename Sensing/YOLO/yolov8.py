@@ -9,13 +9,10 @@ model = YOLO("yolov8n")
 
 # print(model.names)
 
-cam = cv2.VideoCapture(0)
-
-
-def center_points(mode):
+def center_points(source, mode):
     # cv2.imshow("image",image)
-    result, image = cam.read()
-    results = model.predict(source=image)  # generator of Results objects
+
+    results = model.predict(source=source)  # generator of Results objects
     # cv2.imshow("results", results)
     vip_Boxes = []
     temp = ""
@@ -90,7 +87,7 @@ def center_points(mode):
             coordinate = x_coord, y_coord
             center_points.append(coordinate)
             index_counter = 0
-    # center_points is an array of center point floats
+    # center_points is an array of center point floats formatted as (x,y)
 
     if mode == 0:  # debug mode
         print("number of vip boxes: " + str(len(vip_Boxes)))
@@ -103,6 +100,17 @@ def center_points(mode):
         print(center_points)
 
 
-while True:
-    # mode 0 is debug mode, mode 1 is just center points
-    center_points(1)
+def yolo_center_points(camera_stream, file_source, debug_mode):
+    if camera_stream:
+        cam = cv2.VideoCapture(0)
+        while True:
+            result, image = cam.read()
+            center_points(image, debug_mode)
+    else:
+        center_points(file_source, debug_mode)
+
+
+yolo_center_points(True, "people.jpg", 1)
+# debug mode 0 prints debug statements, 1 is just center points
+# if camera stream is True then file_source can be set to None but doesn't have to be
+# file_source won't be read if camera_stream is set to true
