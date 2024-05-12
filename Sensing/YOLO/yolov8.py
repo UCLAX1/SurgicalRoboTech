@@ -7,6 +7,7 @@ import roslibpy
 
 model = YOLO("yolov8n")
 
+
 # print(model.names)
 
 def center_points(source, mode):
@@ -100,9 +101,9 @@ def center_points(source, mode):
         print(center_points)
 
 
-def yolo_center_points(camera_stream, file_source, debug_mode):
+def yolo_center_points(camera_stream, camera_source, file_source, debug_mode):
     if camera_stream:
-        cam = cv2.VideoCapture(0)
+        cam = cv2.VideoCapture(camera_source)
         while True:
             result, image = cam.read()
             center_points(image, debug_mode)
@@ -110,7 +111,7 @@ def yolo_center_points(camera_stream, file_source, debug_mode):
         center_points(file_source, debug_mode)
 
 
-yolo_center_points(True, "people.jpg", 1)
+yolo_center_points(True, 0, "people.jpg", 1)
 # debug mode 0 prints debug statements, 1 is just center points
 # if camera stream is True then file_source can be set to None but doesn't have to be
 # file_source won't be read if camera_stream is set to true
