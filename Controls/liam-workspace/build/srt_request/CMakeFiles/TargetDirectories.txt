@@ -1,0 +1,10 @@
+/home/parallels/liam-workspace/build/srt_request/CMakeFiles/uninstall.dir
+/home/parallels/liam-workspace/build/srt_request/CMakeFiles/srt_request_uninstall.dir
+/home/parallels/liam-workspace/build/srt_request/CMakeFiles/srt_request.dir
+/home/parallels/liam-workspace/build/srt_request/CMakeFiles/test.dir
+/home/parallels/liam-workspace/build/srt_request/CMakeFiles/edit_cache.dir
+/home/parallels/liam-workspace/build/srt_request/CMakeFiles/rebuild_cache.dir
+/home/parallels/liam-workspace/build/srt_request/CMakeFiles/list_install_components.dir
+/home/parallels/liam-workspace/build/srt_request/CMakeFiles/install.dir
+/home/parallels/liam-workspace/build/srt_request/CMakeFiles/install/local.dir
+/home/parallels/liam-workspace/build/srt_request/CMakeFiles/install/strip.dir

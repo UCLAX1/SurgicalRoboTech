@@ -1,0 +1,4 @@
+source;share/srt_request/local_setup.bash
+source;share/srt_request/local_setup.dsv
+source;share/srt_request/local_setup.sh
+source;share/srt_request/local_setup.zsh

@@ -1,0 +1,50 @@
+[0.008s] Invoking command in '/home/parallels/liam-workspace/build/open_manipulator_srt_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/parallels/liam-workspace/build/open_manipulator_srt_description -- -j8 -l8
+[0.035s] Invoked command in '/home/parallels/liam-workspace/build/open_manipulator_srt_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/parallels/liam-workspace/build/open_manipulator_srt_description -- -j8 -l8
+[0.057s] Invoking command in '/home/parallels/liam-workspace/build/open_manipulator_srt_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/parallels/liam-workspace/build/open_manipulator_srt_description
+[0.062s] -- Install configuration: ""
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/visual
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/visual/T1.dae
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/visual/T3.dae
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/visual/T5.dae
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/visual/base_link.dae
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/visual/EE.dae
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/visual/T4.dae
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/visual/T2.dae
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/collision
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/collision/base_link.stl
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/collision/T5.stl
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/collision/EE.stl
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/collision/T2.stl
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/collision/T1.stl
+[0.062s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/collision/T4.stl
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/meshes/collision/T3.stl
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/urdf
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/urdf/open_manipulator_srt.ros2_control.xacro
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/urdf/open_manipulator_srt.urdf.xacro
+[0.063s] -- Installing: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/urdf/open_manipulator_srt.xacro
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/urdf/open_manipulator_srt.ros2_control_gazebo.xacro
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/urdf/open_manipulator_srt_gazebo.urdf.xacro
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/controllers
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/controllers/controllers.yaml
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/launch
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/launch/display.launch.py
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/launch/open_manipulator_srt.launch.py
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/launch/open_manipulator_srt.rviz
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/launch/open_manipulator_srt_gazebo.launch.py
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/ament_index/resource_index/package_run_dependencies/open_manipulator_srt_description
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/ament_index/resource_index/parent_prefix_path/open_manipulator_srt_description
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/environment/ament_prefix_path.sh
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/environment/ament_prefix_path.dsv
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/environment/path.sh
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/environment/path.dsv
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/local_setup.bash
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/local_setup.sh
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/local_setup.zsh
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/local_setup.dsv
+[0.064s] -- Installing: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/package.dsv
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/ament_index/resource_index/packages/open_manipulator_srt_description
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/cmake/open_manipulator_srt_descriptionConfig.cmake
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/cmake/open_manipulator_srt_descriptionConfig-version.cmake
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/open_manipulator_srt_description/share/open_manipulator_srt_description/package.xml
+[0.064s] Invoked command in '/home/parallels/liam-workspace/build/open_manipulator_srt_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/parallels/liam-workspace/build/open_manipulator_srt_description

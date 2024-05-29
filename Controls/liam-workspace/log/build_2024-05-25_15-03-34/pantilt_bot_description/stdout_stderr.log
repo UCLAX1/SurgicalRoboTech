@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+-- Found rviz2: 11.2.12 (/opt/ros/humble/share/rviz2/cmake)
+-- Found ros2_control: 2.41.0 (/opt/ros/humble/share/ros2_control/cmake)
+-- Found ros2_controllers: 2.34.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+-- Found dynamixel_hardware: 0.0.0 (/home/parallels/ws_moveit2/install/dynamixel_hardware/share/dynamixel_hardware/cmake)
+-- Found realsense2_description: 4.54.1 (/opt/ros/humble/share/realsense2_description/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/parallels/liam-workspace/build/pantilt_bot_description
+-- Install configuration: ""
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/meshes
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/meshes/joint2.stl
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/meshes/joint2_horn.stl
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/meshes/joint1_horn.stl
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/meshes/joint1.stl
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf/pantilt_bot.ros2_control_gazebo.xacro
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf/pantilt_bot.material.xacro
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf/pantilt_bot.urdf.xacro
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf/pantilt_bot.xacro
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf/pantilt_bot.ros2_control.xacro
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf/pantilt_bot_gazebo.urdf.xacro
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/controllers
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/controllers/controllers.yaml
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/launch
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/launch/display.launch.py
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/launch/pantilt_bot_gazebo.launch.py
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/launch/pantilt_bot.launch.py
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/launch/pantilt_bot.rviz
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/ament_index/resource_index/package_run_dependencies/pantilt_bot_description
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/ament_index/resource_index/parent_prefix_path/pantilt_bot_description
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/environment/ament_prefix_path.sh
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/environment/path.sh
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/environment/path.dsv
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/local_setup.bash
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/local_setup.sh
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/local_setup.zsh
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/local_setup.dsv
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/package.dsv
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/ament_index/resource_index/packages/pantilt_bot_description
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/cmake/pantilt_bot_descriptionConfig.cmake
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/cmake/pantilt_bot_descriptionConfig-version.cmake
+-- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/package.xml

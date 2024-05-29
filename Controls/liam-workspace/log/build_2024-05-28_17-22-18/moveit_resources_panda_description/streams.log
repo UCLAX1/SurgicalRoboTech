@@ -1,0 +1,64 @@
+[0.156s] Invoking command in '/home/parallels/liam-workspace/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/parallels/liam-workspace/src/moveit_resources/panda_description -DCMAKE_INSTALL_PREFIX=/home/parallels/liam-workspace/install/moveit_resources_panda_description
+[0.208s] -- The C compiler identification is GNU 11.4.0
+[0.253s] -- The CXX compiler identification is GNU 11.4.0
+[0.257s] -- Detecting C compiler ABI info
+[0.303s] -- Detecting C compiler ABI info - done
+[0.306s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.306s] -- Detecting C compile features
+[0.307s] -- Detecting C compile features - done
+[0.308s] -- Detecting CXX compiler ABI info
+[0.363s] -- Detecting CXX compiler ABI info - done
+[0.367s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.367s] -- Detecting CXX compile features
+[0.368s] -- Detecting CXX compile features - done
+[0.372s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.466s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.585s] -- Configuring done
+[0.588s] -- Generating done
+[0.588s] -- Build files have been written to: /home/parallels/liam-workspace/build/moveit_resources_panda_description
+[0.596s] Invoked command in '/home/parallels/liam-workspace/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/parallels/liam-workspace/src/moveit_resources/panda_description -DCMAKE_INSTALL_PREFIX=/home/parallels/liam-workspace/install/moveit_resources_panda_description
+[0.596s] Invoking command in '/home/parallels/liam-workspace/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/parallels/liam-workspace/build/moveit_resources_panda_description -- -j8 -l8
+[0.630s] Invoked command in '/home/parallels/liam-workspace/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/parallels/liam-workspace/build/moveit_resources_panda_description -- -j8 -l8
+[0.648s] Invoking command in '/home/parallels/liam-workspace/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/parallels/liam-workspace/build/moveit_resources_panda_description
+[0.654s] -- Install configuration: ""
+[0.654s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_description
+[0.654s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_description
+[0.655s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.sh
+[0.655s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.dsv
+[0.655s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.sh
+[0.655s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.dsv
+[0.655s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.bash
+[0.655s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.sh
+[0.655s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.zsh
+[0.655s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.dsv
+[0.655s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv
+[0.655s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/ament_index/resource_index/packages/moveit_resources_panda_description
+[0.655s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake
+[0.655s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake
+[0.655s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.xml
+[0.656s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes
+[0.656s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual
+[0.656s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/hand.dae
+[0.658s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link1.dae
+[0.660s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/finger.dae
+[0.660s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link7.dae
+[0.662s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link5.dae
+[0.665s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link2.dae
+[0.667s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link4.dae
+[0.672s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link3.dae
+[0.674s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link6.dae
+[0.677s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link0.dae
+[0.679s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision
+[0.679s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link5.stl
+[0.679s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/finger.stl
+[0.680s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link1.stl
+[0.680s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link7.stl
+[0.680s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link3.stl
+[0.680s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link6.stl
+[0.680s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/hand.stl
+[0.681s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link2.stl
+[0.681s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link4.stl
+[0.681s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link0.stl
+[0.681s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf
+[0.682s] -- Installing: /home/parallels/liam-workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf
+[0.683s] Invoked command in '/home/parallels/liam-workspace/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/parallels/liam-workspace/build/moveit_resources_panda_description

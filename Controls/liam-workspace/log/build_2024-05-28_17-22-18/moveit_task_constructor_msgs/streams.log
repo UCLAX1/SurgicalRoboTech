@@ -1,0 +1,571 @@
+[0.149s] Invoking command in '/home/parallels/liam-workspace/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/parallels/liam-workspace/src/moveit_task_constructor/msgs -DCMAKE_INSTALL_PREFIX=/home/parallels/liam-workspace/install/moveit_task_constructor_msgs
+[0.199s] -- The C compiler identification is GNU 11.4.0
+[0.234s] -- The CXX compiler identification is GNU 11.4.0
+[0.239s] -- Detecting C compiler ABI info
+[0.307s] -- Detecting C compiler ABI info - done
+[0.307s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.307s] -- Detecting C compile features
+[0.308s] -- Detecting C compile features - done
+[0.309s] -- Detecting CXX compiler ABI info
+[0.391s] -- Detecting CXX compiler ABI info - done
+[0.396s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.396s] -- Detecting CXX compile features
+[0.396s] -- Detecting CXX compile features - done
+[0.401s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.492s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.586s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.629s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.638s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.650s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.667s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.695s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.722s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[1.368s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.389s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.952s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.361s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.531s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.536s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.556s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.556s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.556s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.556s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.569s] -- Found PythonExtra: .so  
+[2.699s] -- Configuring done
+[2.739s] -- Generating done
+[2.740s] -- Build files have been written to: /home/parallels/liam-workspace/build/moveit_task_constructor_msgs
+[2.748s] Invoked command in '/home/parallels/liam-workspace/build/moveit_task_constructor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/parallels/liam-workspace/src/moveit_task_constructor/msgs -DCMAKE_INSTALL_PREFIX=/home/parallels/liam-workspace/install/moveit_task_constructor_msgs
+[2.748s] Invoking command in '/home/parallels/liam-workspace/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/parallels/liam-workspace/build/moveit_task_constructor_msgs -- -j8 -l8
+[2.781s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.798s] [  1%] Built target ament_cmake_python_copy_moveit_task_constructor_msgs
+[2.819s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.922s] running egg_info
+[2.922s] creating moveit_task_constructor_msgs.egg-info
+[2.923s] writing moveit_task_constructor_msgs.egg-info/PKG-INFO
+[2.923s] writing dependency_links to moveit_task_constructor_msgs.egg-info/dependency_links.txt
+[2.923s] writing top-level names to moveit_task_constructor_msgs.egg-info/top_level.txt
+[2.923s] writing manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[2.924s] reading manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[2.924s] writing manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[2.943s] [  1%] Built target ament_cmake_python_build_moveit_task_constructor_msgs_egg
+[3.999s] [  1%] Built target moveit_task_constructor_msgs__cpp
+[4.043s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.044s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.045s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.138s] [  4%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/property__functions.c.o[0m
+[4.146s] [  4%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/stage_description__functions.c.o[0m
+[4.151s] [  5%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/solution_info__functions.c.o[0m
+[4.154s] [  6%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/solution__functions.c.o[0m
+[4.177s] [  7%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/stage_statistics__functions.c.o[0m
+[4.295s] [  8%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/sub_solution__functions.c.o[0m
+[4.330s] [  9%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/sub_trajectory__functions.c.o[0m
+[4.330s] [ 10%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/task_description__functions.c.o[0m
+[4.330s] [ 11%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/task_statistics__functions.c.o[0m
+[4.375s] [ 11%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__functions.c.o[0m
+[4.446s] [ 12%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/srv/detail/get_solution__functions.c.o[0m
+[4.503s] [ 13%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/action/detail/execute_task_solution__functions.c.o[0m
+[4.748s] [ 14%] [32m[1mLinking C shared library libmoveit_task_constructor_msgs__rosidl_generator_c.so[0m
+[4.846s] [ 14%] Built target moveit_task_constructor_msgs__rosidl_generator_c
+[4.874s] [ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.893s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.901s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.045s] [ 18%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/property__type_support.cpp.o[0m
+[5.125s] [ 19%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/solution__type_support.cpp.o[0m
+[5.257s] [ 19%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/property__type_support.cpp.o[0m
+[5.258s] [ 20%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/solution_info__type_support.cpp.o[0m
+[5.284s] [ 21%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/property__type_support.cpp.o[0m
+[5.509s] [ 22%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/stage_description__type_support.cpp.o[0m
+[5.595s] [ 22%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/stage_statistics__type_support.cpp.o[0m
+[5.654s] [ 23%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/sub_solution__type_support.cpp.o[0m
+[5.705s] [ 24%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/solution__type_support.cpp.o[0m
+[5.705s] [ 25%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/solution__type_support.cpp.o[0m
+[5.785s] [ 26%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/sub_trajectory__type_support.cpp.o[0m
+[5.913s] [ 27%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/task_description__type_support.cpp.o[0m
+[6.001s] [ 28%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/property__type_support.cpp.o[0m
+[6.036s] [ 29%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/task_statistics__type_support.cpp.o[0m
+[6.071s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/trajectory_execution_info__type_support.cpp.o[0m
+[6.095s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/solution__type_support.cpp.o[0m
+[6.178s] [ 31%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/solution_info__type_support.cpp.o[0m
+[6.306s] [ 32%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/stage_description__type_support.cpp.o[0m
+[6.319s] [ 32%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/srv/get_solution__type_support.cpp.o[0m
+[6.350s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/action/execute_task_solution__type_support.cpp.o[0m
+[6.407s] [ 34%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/stage_statistics__type_support.cpp.o[0m
+[6.427s] [ 35%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/solution_info__type_support.cpp.o[0m
+[6.490s] [ 36%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/sub_solution__type_support.cpp.o[0m
+[6.496s] [ 37%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/property__type_support.c.o[0m
+[6.510s] [ 38%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/solution__type_support.c.o[0m
+[6.556s] [ 39%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.c.o[0m
+[6.591s] [ 40%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.cpp.o[0m
+[6.597s] [ 41%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/sub_trajectory__type_support.cpp.o[0m
+[6.619s] [ 42%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/property__type_support_c.cpp.o[0m
+[6.654s] [ 43%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.c.o[0m
+[6.655s] [ 43%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.c.o[0m
+[6.723s] [ 43%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/task_description__type_support.cpp.o[0m
+[6.765s] [ 44%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.c.o[0m
+[6.772s] [ 45%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_cpp.so[0m
+[6.782s] [ 46%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.c.o[0m
+[6.819s] [ 47%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/task_statistics__type_support.cpp.o[0m
+[6.854s] [ 48%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/task_description__type_support.c.o[0m
+[6.858s] [ 48%] Built target moveit_task_constructor_msgs__rosidl_typesupport_cpp
+[6.864s] [ 49%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/srv/get_solution__type_support.cpp.o[0m
+[6.895s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/trajectory_execution_info__type_support.cpp.o[0m
+[6.906s] [ 51%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/action/execute_task_solution__type_support.cpp.o[0m
+[6.915s] [ 52%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/solution__type_support_c.cpp.o[0m
+[6.953s] [ 53%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.cpp.o[0m
+[6.983s] [ 54%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.c.o[0m
+[7.015s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.cpp.o[0m
+[7.046s] [ 56%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_c.so[0m
+[7.159s] [ 57%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.c.o[0m
+[7.189s] [ 57%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/solution_info__type_support_c.cpp.o[0m
+[7.189s] [ 57%] Built target moveit_task_constructor_msgs__rosidl_typesupport_c
+[7.201s] [ 58%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/stage_description__type_support.cpp.o[0m
+[7.245s] [ 59%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.cpp.o[0m
+[7.259s] [ 59%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.c.o[0m
+[7.389s] [ 60%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.c.o[0m
+[7.525s] [ 61%] [32m[1mLinking C shared library libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.531s] [ 61%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.cpp.o[0m
+[7.543s] [ 62%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/task_description__type_support.cpp.o[0m
+[7.569s] [ 63%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/stage_description__type_support_c.cpp.o[0m
+[7.610s] [ 64%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.cpp.o[0m
+[7.682s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.cpp.o[0m
+[7.690s] [ 65%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c
+[7.694s] [ 66%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/stage_statistics__type_support.cpp.o[0m
+[7.744s] [ 67%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support_c.cpp.o[0m
+[7.864s] [ 68%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support_c.cpp.o[0m
+[7.922s] [ 69%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.cpp.o[0m
+[8.033s] [ 70%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.cpp.o[0m
+[8.090s] [ 70%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/sub_solution__type_support.cpp.o[0m
+[8.099s] [ 71%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/sub_trajectory__type_support.cpp.o[0m
+[8.132s] [ 72%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support_c.cpp.o[0m
+[8.205s] [ 73%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/task_description__type_support.cpp.o[0m
+[8.219s] [ 74%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/task_description__type_support_c.cpp.o[0m
+[8.342s] [ 74%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support_c.cpp.o[0m
+[8.514s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support_c.cpp.o[0m
+[8.520s] [ 76%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/task_statistics__type_support.cpp.o[0m
+[8.554s] [ 77%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/srv/detail/get_solution__type_support_c.cpp.o[0m
+[8.559s] [ 78%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/trajectory_execution_info__type_support.cpp.o[0m
+[8.611s] [ 79%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/srv/detail/dds_fastrtps/get_solution__type_support.cpp.o[0m
+[8.673s] [ 80%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support_c.cpp.o[0m
+[8.871s] [ 80%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/action/detail/dds_fastrtps/execute_task_solution__type_support.cpp.o[0m
+[8.875s] [ 81%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.022s] [ 82%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.148s] [ 82%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp
+[9.169s] [ 82%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c
+[9.273s] [ 83%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.374s] [ 83%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp
+[9.446s] [ 83%] Built target moveit_task_constructor_msgs
+[9.495s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.570s] [ 84%] Built target moveit_task_constructor_msgs__py
+[11.596s] [ 85%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_solution_s.c.o[0m
+[11.623s] [ 86%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_stage_description_s.c.o[0m
+[11.624s] [ 87%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_property_s.c.o[0m
+[11.626s] [ 87%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_solution_info_s.c.o[0m
+[11.634s] [ 88%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_stage_statistics_s.c.o[0m
+[11.645s] [ 89%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_sub_solution_s.c.o[0m
+[11.675s] [ 90%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_sub_trajectory_s.c.o[0m
+[11.715s] [ 91%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_task_description_s.c.o[0m
+[11.794s] [ 92%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_task_statistics_s.c.o[0m
+[11.811s] [ 92%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_trajectory_execution_info_s.c.o[0m
+[11.839s] [ 93%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/srv/_get_solution_s.c.o[0m
+[11.860s] [ 94%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/action/_execute_task_solution_s.c.o[0m
+[12.087s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/moveit_task_constructor_msgs/libmoveit_task_constructor_msgs__rosidl_generator_py.so[0m
+[12.172s] [ 95%] Built target moveit_task_constructor_msgs__rosidl_generator_py
+[12.211s] [ 96%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.228s] [ 96%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.249s] [ 97%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.301s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.323s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.392s] [ 99%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[12.400s] [ 99%] Built target moveit_task_constructor_msgs__rosidl_typesupport_c__pyext
+[12.413s] [100%] [32m[1mLinking C shared library rosidl_generator_py/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.454s] [100%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c__pyext
+[12.465s] Invoked command in '/home/parallels/liam-workspace/build/moveit_task_constructor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/parallels/liam-workspace/build/moveit_task_constructor_msgs -- -j8 -l8
+[14.496s] Invoking command in '/home/parallels/liam-workspace/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/parallels/liam-workspace/build/moveit_task_constructor_msgs
+[14.504s] -- Install configuration: ""
+[14.504s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/ament_index/resource_index/rosidl_interfaces/moveit_task_constructor_msgs
+[14.504s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[14.504s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[14.504s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_solution.h
+[14.505s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_description.h
+[14.505s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_generator_c__visibility_control.h
+[14.505s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_statistics.h
+[14.505s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[14.505s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.h
+[14.505s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__functions.h
+[14.505s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.h
+[14.505s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.h
+[14.505s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.h
+[14.506s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.h
+[14.506s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.h
+[14.506s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__functions.c
+[14.506s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.h
+[14.506s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__functions.c
+[14.506s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__functions.c
+[14.506s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__functions.h
+[14.507s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__struct.h
+[14.507s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__functions.h
+[14.507s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.h
+[14.507s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__functions.c
+[14.507s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.h
+[14.507s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__struct.h
+[14.507s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.h
+[14.507s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__functions.h
+[14.507s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__functions.c
+[14.508s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__functions.c
+[14.508s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__struct.h
+[14.508s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.h
+[14.508s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.h
+[14.508s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__functions.h
+[14.508s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__functions.c
+[14.508s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__struct.h
+[14.509s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__functions.c
+[14.509s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__struct.h
+[14.509s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.h
+[14.509s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__functions.h
+[14.509s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__functions.c
+[14.509s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.h
+[14.509s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.h
+[14.510s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__functions.c
+[14.510s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__functions.h
+[14.510s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__functions.h
+[14.510s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__functions.h
+[14.510s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__functions.h
+[14.510s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.h
+[14.510s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/property.h
+[14.510s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/trajectory_execution_info.h
+[14.510s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution_info.h
+[14.510s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_statistics.h
+[14.511s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_description.h
+[14.511s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_trajectory.h
+[14.511s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[14.511s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[14.511s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__functions.h
+[14.511s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.h
+[14.511s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.h
+[14.511s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__functions.c
+[14.512s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/execute_task_solution.h
+[14.512s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[14.512s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/get_solution.h
+[14.512s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[14.512s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__functions.c
+[14.512s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__functions.h
+[14.512s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.h
+[14.513s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__struct.h
+[14.513s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/library_path.sh
+[14.513s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/library_path.dsv
+[14.513s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_generator_c.so
+[14.513s] -- Set runtime path of "/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_generator_c.so" to ""
+[14.513s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[14.513s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[14.513s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[14.514s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_fastrtps_c.h
+[14.514s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__rosidl_typesupport_fastrtps_c.h
+[14.514s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_fastrtps_c.h
+[14.514s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_fastrtps_c.h
+[14.514s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_fastrtps_c.h
+[14.514s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_fastrtps_c.h
+[14.514s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_fastrtps_c.h
+[14.514s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_fastrtps_c.h
+[14.514s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_fastrtps_c.h
+[14.514s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_fastrtps_c.h
+[14.515s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.515s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[14.515s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[14.515s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_fastrtps_c.h
+[14.515s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[14.515s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[14.515s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_fastrtps_c.h
+[14.515s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.so
+[14.515s] -- Set runtime path of "/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.516s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[14.516s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[14.516s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution_info.hpp
+[14.516s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[14.516s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.hpp
+[14.516s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__traits.hpp
+[14.516s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__struct.hpp
+[14.516s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__traits.hpp
+[14.516s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.hpp
+[14.516s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.hpp
+[14.516s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__struct.hpp
+[14.517s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.hpp
+[14.517s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__traits.hpp
+[14.517s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__traits.hpp
+[14.517s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__builder.hpp
+[14.517s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__builder.hpp
+[14.517s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__builder.hpp
+[14.517s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__builder.hpp
+[14.517s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__traits.hpp
+[14.517s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__builder.hpp
+[14.517s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__builder.hpp
+[14.518s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__traits.hpp
+[14.518s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__traits.hpp
+[14.518s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__traits.hpp
+[14.518s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__builder.hpp
+[14.518s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__traits.hpp
+[14.518s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__struct.hpp
+[14.518s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__builder.hpp
+[14.518s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__builder.hpp
+[14.518s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__builder.hpp
+[14.518s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__struct.hpp
+[14.519s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__traits.hpp
+[14.519s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.hpp
+[14.519s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__struct.hpp
+[14.519s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/trajectory_execution_info.hpp
+[14.519s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_statistics.hpp
+[14.519s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_trajectory.hpp
+[14.519s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_description.hpp
+[14.519s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_statistics.hpp
+[14.519s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.hpp
+[14.519s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_description.hpp
+[14.520s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_solution.hpp
+[14.520s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/property.hpp
+[14.520s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[14.520s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[14.520s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__traits.hpp
+[14.520s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp
+[14.520s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp
+[14.520s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/execute_task_solution.hpp
+[14.520s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[14.520s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[14.520s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__traits.hpp
+[14.521s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__struct.hpp
+[14.521s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__builder.hpp
+[14.521s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/get_solution.hpp
+[14.521s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[14.521s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[14.521s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[14.521s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/dds_fastrtps
+[14.522s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_fastrtps_cpp.hpp
+[14.522s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[14.522s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__rosidl_typesupport_fastrtps_cpp.hpp
+[14.522s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+[14.522s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_fastrtps_cpp.hpp
+[14.522s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_fastrtps_cpp.hpp
+[14.522s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_fastrtps_cpp.hpp
+[14.522s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_fastrtps_cpp.hpp
+[14.522s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_fastrtps_cpp.hpp
+[14.523s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+[14.523s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.523s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[14.523s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[14.523s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/dds_fastrtps
+[14.523s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_fastrtps_cpp.hpp
+[14.523s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[14.523s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[14.523s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/dds_fastrtps
+[14.523s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_fastrtps_cpp.hpp
+[14.523s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.524s] -- Set runtime path of "/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.524s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[14.524s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[14.525s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[14.525s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.c
+[14.525s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.c
+[14.525s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_introspection_c.h
+[14.525s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_introspection_c.h
+[14.525s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.c
+[14.525s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.c
+[14.525s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_introspection_c.h
+[14.525s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_introspection_c.h
+[14.526s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_introspection_c.h
+[14.526s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_introspection_c.h
+[14.526s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.c
+[14.526s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.c
+[14.526s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__rosidl_typesupport_introspection_c.h
+[14.526s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.c
+[14.526s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_introspection_c.h
+[14.526s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_introspection_c.h
+[14.526s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_introspection_c.h
+[14.527s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.c
+[14.527s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.c
+[14.527s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.c
+[14.527s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.527s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[14.527s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[14.527s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_introspection_c.h
+[14.528s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.c
+[14.528s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[14.528s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[14.528s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_introspection_c.h
+[14.529s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.c
+[14.529s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_c.so
+[14.529s] -- Set runtime path of "/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.530s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_c.so
+[14.530s] -- Set runtime path of "/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_c.so" to ""
+[14.530s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[14.530s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[14.530s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[14.530s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[14.531s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.cpp
+[14.531s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.cpp
+[14.531s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_introspection_cpp.hpp
+[14.531s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.cpp
+[14.531s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_introspection_cpp.hpp
+[14.532s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.cpp
+[14.532s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.cpp
+[14.532s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_introspection_cpp.hpp
+[14.532s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_introspection_cpp.hpp
+[14.532s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.cpp
+[14.533s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_introspection_cpp.hpp
+[14.533s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_introspection_cpp.hpp
+[14.533s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.cpp
+[14.533s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_introspection_cpp.hpp
+[14.533s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__rosidl_typesupport_introspection_cpp.hpp
+[14.534s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_introspection_cpp.hpp
+[14.534s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.cpp
+[14.534s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.cpp
+[14.534s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.cpp
+[14.534s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[14.534s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[14.535s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.cpp
+[14.535s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_introspection_cpp.hpp
+[14.535s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[14.535s] -- Up-to-date: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[14.535s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_introspection_cpp.hpp
+[14.535s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.cpp
+[14.536s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.so
+[14.539s] -- Set runtime path of "/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.540s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_cpp.so
+[14.540s] -- Set runtime path of "/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_cpp.so" to ""
+[14.541s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/pythonpath.sh
+[14.541s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/pythonpath.dsv
+[14.541s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info
+[14.541s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info/dependency_links.txt
+[14.541s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info/top_level.txt
+[14.542s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info/PKG-INFO
+[14.542s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info/SOURCES.txt
+[14.542s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs
+[14.542s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[14.542s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[14.543s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.544s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.545s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_c.c
+[14.546s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg
+[14.547s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_statistics.py
+[14.547s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_property_s.c
+[14.547s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_solution.py
+[14.548s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution_info.py
+[14.548s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_statistics.py
+[14.549s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution.py
+[14.549s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_property.py
+[14.549s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution_info_s.c
+[14.549s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_solution_s.c
+[14.549s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_statistics_s.c
+[14.549s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_description_s.c
+[14.549s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_statistics_s.c
+[14.549s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution_s.c
+[14.550s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_trajectory.py
+[14.550s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_description.py
+[14.550s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_description.py
+[14.550s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/__init__.py
+[14.550s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_trajectory_s.c
+[14.550s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_trajectory_execution_info_s.c
+[14.550s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_description_s.c
+[14.550s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_trajectory_execution_info.py
+[14.550s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action
+[14.551s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action/_execute_task_solution.py
+[14.551s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action/_execute_task_solution_s.c
+[14.551s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action/__init__.py
+[14.551s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[14.551s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/libmoveit_task_constructor_msgs__rosidl_generator_py.so
+[14.551s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/__init__.py
+[14.551s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv
+[14.552s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv/_get_solution.py
+[14.552s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv/__init__.py
+[14.552s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv/_get_solution_s.c
+[14.587s] Listing '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/__init__.py'...
+[14.588s] Listing '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action/__init__.py'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action/_execute_task_solution.py'...
+[14.588s] Listing '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/__init__.py'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_property.py'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution.py'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution_info.py'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_description.py'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_statistics.py'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_solution.py'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_trajectory.py'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_description.py'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_statistics.py'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_trajectory_execution_info.py'...
+[14.588s] Listing '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv/__init__.py'...
+[14.588s] Compiling '/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv/_get_solution.py'...
+[14.592s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[14.592s] -- Set runtime path of "/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[14.592s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[14.592s] -- Set runtime path of "/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[14.593s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[14.593s] -- Set runtime path of "/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[14.593s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_generator_py.so
+[14.593s] -- Set runtime path of "/home/parallels/liam-workspace/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_generator_py.so" to ""
+[14.593s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Property.idl
+[14.594s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Solution.idl
+[14.594s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SolutionInfo.idl
+[14.594s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageDescription.idl
+[14.594s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageStatistics.idl
+[14.594s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubSolution.idl
+[14.594s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubTrajectory.idl
+[14.594s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskDescription.idl
+[14.594s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskStatistics.idl
+[14.595s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TrajectoryExecutionInfo.idl
+[14.595s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution.idl
+[14.595s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/action/ExecuteTaskSolution.idl
+[14.595s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Property.msg
+[14.595s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Solution.msg
+[14.595s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SolutionInfo.msg
+[14.595s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageDescription.msg
+[14.595s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageStatistics.msg
+[14.596s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubSolution.msg
+[14.596s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubTrajectory.msg
+[14.596s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskDescription.msg
+[14.596s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskStatistics.msg
+[14.596s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TrajectoryExecutionInfo.msg
+[14.596s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution.srv
+[14.597s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution_Request.msg
+[14.597s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution_Response.msg
+[14.597s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/action/ExecuteTaskSolution.action
+[14.597s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_msgs
+[14.597s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_msgs
+[14.597s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/ament_prefix_path.sh
+[14.597s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/ament_prefix_path.dsv
+[14.598s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/path.sh
+[14.598s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/path.dsv
+[14.598s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.bash
+[14.598s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.sh
+[14.598s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.zsh
+[14.598s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.dsv
+[14.598s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/package.dsv
+[14.598s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/ament_index/resource_index/packages/moveit_task_constructor_msgs
+[14.599s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_cExport.cmake
+[14.599s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.599s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.599s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.599s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_cppExport.cmake
+[14.599s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.599s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.599s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.599s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.600s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cExport.cmake
+[14.600s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.600s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.600s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.600s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cppExport.cmake
+[14.600s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.600s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_pyExport.cmake
+[14.601s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[14.601s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/rosidl_cmake-extras.cmake
+[14.601s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.601s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.601s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.601s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.601s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.602s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.602s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgsConfig.cmake
+[14.602s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgsConfig-version.cmake
+[14.602s] -- Installing: /home/parallels/liam-workspace/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/package.xml
+[14.605s] Invoked command in '/home/parallels/liam-workspace/build/moveit_task_constructor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/parallels/liam-workspace/build/moveit_task_constructor_msgs

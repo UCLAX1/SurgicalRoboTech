@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot name="srt_hardware" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find srt_hardware_description)/urdf/srt_hardware.xacro" />
+  <xacro:include filename="$(find srt_hardware_description)/urdf/srt_hardware.ros2_control_gazebo.xacro" />
+
+  <link name="world"/>
+
+  <xacro:srt_hardware parent="world">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </xacro:srt_hardware>
+
+  <xacro:srt_hardware_ros2_control name="srt_hardware_ros2_control" />
+</robot>

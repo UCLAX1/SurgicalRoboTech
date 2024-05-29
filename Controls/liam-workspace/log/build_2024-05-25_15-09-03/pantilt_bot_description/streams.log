@@ -1,0 +1,39 @@
+[0.007s] Invoking command in '/home/parallels/liam-workspace/build/pantilt_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/parallels/liam-workspace/build/pantilt_bot_description -- -j8 -l8
+[0.035s] Invoked command in '/home/parallels/liam-workspace/build/pantilt_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/parallels/liam-workspace/build/pantilt_bot_description -- -j8 -l8
+[0.059s] Invoking command in '/home/parallels/liam-workspace/build/pantilt_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/parallels/liam-workspace/build/pantilt_bot_description
+[0.063s] -- Install configuration: ""
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/meshes
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/meshes/joint2.stl
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/meshes/joint2_horn.stl
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/meshes/joint1_horn.stl
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/meshes/joint1.stl
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf/pantilt_bot.ros2_control_gazebo.xacro
+[0.063s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf/pantilt_bot.material.xacro
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf/pantilt_bot.urdf.xacro
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf/pantilt_bot.xacro
+[0.064s] -- Installing: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf/pantilt_bot.ros2_control.xacro
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/urdf/pantilt_bot_gazebo.urdf.xacro
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/controllers
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/controllers/controllers.yaml
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/launch
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/launch/display.launch.py
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/launch/pantilt_bot_gazebo.launch.py
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/launch/pantilt_bot.launch.py
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/launch/pantilt_bot.rviz
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/ament_index/resource_index/package_run_dependencies/pantilt_bot_description
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/ament_index/resource_index/parent_prefix_path/pantilt_bot_description
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/environment/ament_prefix_path.dsv
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/environment/path.sh
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/environment/path.dsv
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/local_setup.bash
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/local_setup.sh
+[0.064s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/local_setup.zsh
+[0.065s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/local_setup.dsv
+[0.065s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/package.dsv
+[0.065s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/ament_index/resource_index/packages/pantilt_bot_description
+[0.065s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/cmake/pantilt_bot_descriptionConfig.cmake
+[0.065s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/cmake/pantilt_bot_descriptionConfig-version.cmake
+[0.065s] -- Up-to-date: /home/parallels/liam-workspace/install/pantilt_bot_description/share/pantilt_bot_description/package.xml
+[0.065s] Invoked command in '/home/parallels/liam-workspace/build/pantilt_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ws_moveit2/install/moveit_configs_utils:/home/parallels/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/parallels/liam-workspace/build/pantilt_bot_description

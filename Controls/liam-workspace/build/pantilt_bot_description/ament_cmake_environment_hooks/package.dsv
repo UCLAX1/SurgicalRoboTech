@@ -1,0 +1,4 @@
+source;share/pantilt_bot_description/local_setup.bash
+source;share/pantilt_bot_description/local_setup.dsv
+source;share/pantilt_bot_description/local_setup.sh
+source;share/pantilt_bot_description/local_setup.zsh

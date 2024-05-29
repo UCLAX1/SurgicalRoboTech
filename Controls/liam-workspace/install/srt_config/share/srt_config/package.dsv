@@ -1,0 +1,8 @@
+source;share/srt_config/hook/cmake_prefix_path.ps1
+source;share/srt_config/hook/cmake_prefix_path.dsv
+source;share/srt_config/hook/cmake_prefix_path.sh
+source;share/srt_config/local_setup.bash
+source;share/srt_config/local_setup.dsv
+source;share/srt_config/local_setup.ps1
+source;share/srt_config/local_setup.sh
+source;share/srt_config/local_setup.zsh

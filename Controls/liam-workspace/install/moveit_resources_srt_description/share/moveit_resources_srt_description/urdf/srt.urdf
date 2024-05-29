@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="srt">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.188007626730148 0.0086948078667252 -0.0868371471519579"
+        rpy="0 0 0" />
+      <mass
+        value="0.630316577568277" />
+      <inertia
+        ixx="0.00189525383746883"
+        ixy="1.43122546767041E-09"
+        ixz="3.38322450666179E-07"
+        iyy="0.00404912286603478"
+        iyz="-0.000127096841422743"
+        izz="0.0024881580142991" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/visual/base_link.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/collision/base_link.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="T1">
+    <inertial>
+      <origin
+        xyz="-0.0027054 0.016563 -0.0010564"
+        rpy="0 0 0" />
+      <mass
+        value="0.5888" />
+      <inertia
+        ixx="0.00059452"
+        ixy="1.1882E-06"
+        ixz="1.6645E-07"
+        iyy="0.0011547"
+        iyz="3.4768E-07"
+        izz="0.0006299" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/visual/T1.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/collision/T1.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J1"
+    type="revolute">
+    <origin
+      xyz="0.18799 0.077775 0.027433"
+      rpy="1.5708 0 1.2254" />
+    <parent
+      link="base_link" />
+    <child
+      link="T1" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="2.5"
+      velocity="1" />
+  </joint>
+  <link
+    name="T2">
+    <inertial>
+      <origin
+        xyz="-0.10518 0.10914 -0.058221"
+        rpy="0 0 0" />
+      <mass
+        value="0.44063" />
+      <inertia
+        ixx="0.00038613"
+        ixy="0.00027935"
+        ixz="-7.0374E-06"
+        iyy="0.00036469"
+        iyz="7.3091E-06"
+        izz="0.00066344" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/visual/T2.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/collision/T2.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J2"
+    type="revolute">
+    <origin
+      xyz="0 0.042721 0"
+      rpy="3.1416 0 -2.3753" />
+    <parent
+      link="T1" />
+    <child
+      link="T2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.5"
+      upper="1.5"
+      effort="25"
+      velocity="1" />
+  </joint>
+  <link
+    name="T3">
+    <inertial>
+      <origin
+        xyz="0.0112980682766858 0.00715486747880251 0.0690263165092241"
+        rpy="0 0 0" />
+      <mass
+        value="0.197425698991076" />
+      <inertia
+        ixx="0.000279878432304002"
+        ixy="1.97195639996255E-06"
+        ixz="-2.59090499939568E-09"
+        iyy="0.00027064972209345"
+        iyz="-4.17244209266426E-07"
+        izz="3.23781317476175E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/visual/T3.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/collision/T3.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J3"
+    type="revolute">
+    <origin
+      xyz="-0.18287 0.18965 0"
+      rpy="-1.4205 1.5708 0.9085" />
+    <parent
+      link="T2" />
+    <child
+      link="T3" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="8.4"
+      velocity="1" />
+  </joint>
+  <link
+    name="T4">
+    <inertial>
+      <origin
+        xyz="-0.0230640854153213 -0.0106968287131017 -7.35997816330158E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0466864291253788" />
+      <inertia
+        ixx="1.29455245951545E-05"
+        ixy="4.14457893317139E-09"
+        ixz="-2.54879667108005E-09"
+        iyy="8.07493907158762E-06"
+        iyz="-3.89681497194961E-07"
+        izz="1.05933583869909E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/visual/T4.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/collision/T4.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J4"
+    type="revolute">
+    <origin
+      xyz="0.0090718 0.020515 0.18048"
+      rpy="-1.895 1.5708 -1.1636" />
+    <parent
+      link="T3" />
+    <child
+      link="T4" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="2.5"
+      velocity="1" />
+  </joint>
+  <link
+    name="T5">
+    <inertial>
+      <origin
+        xyz="-0.0492656948897521 0.00166439878334901 0.009800763834619"
+        rpy="0 0 0" />
+      <mass
+        value="0.0614885428432789" />
+      <inertia
+        ixx="1.74702844051284E-05"
+        ixy="3.31974912512973E-08"
+        ixz="-2.39147565702409E-07"
+        iyy="1.83815180055208E-05"
+        iyz="1.59947229399635E-09"
+        izz="9.88283783645591E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/visual/T5.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/collision/T5.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J5"
+    type="revolute">
+    <origin
+      xyz="-0.023768 0 0"
+      rpy="0 0 0.045269" />
+    <parent
+      link="T4" />
+    <child
+      link="T5" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="2.5"
+      velocity="1" />
+  </joint>
+  <link
+    name="EE">
+    <inertial>
+      <origin
+        xyz="0.00183631047286098 4.77805566287542E-05 0.0765096920672025"
+        rpy="0 0 0" />
+      <mass
+        value="0.110312867500219" />
+      <inertia
+        ixx="2.7866273334521E-05"
+        ixy="-1.45555772873941E-07"
+        ixz="-7.73042154591554E-09"
+        iyy="3.40725787276711E-05"
+        iyz="-6.98019276820346E-09"
+        izz="3.87014166474658E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/visual/EE.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://moveit_resources_srt_description/meshes/collision/EE.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J6"
+    type="revolute">
+    <origin
+      xyz="-0.074688 0.0025087 0.0001"
+      rpy="-1.5708 -0.95634 1.5372" />
+    <parent
+      link="T5" />
+    <child
+      link="EE" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="2.5"
+      velocity="1" />
+  </joint>
+</robot>
