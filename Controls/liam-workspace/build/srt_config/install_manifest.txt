@@ -22,6 +22,7 @@
 /home/parallels/liam-workspace/install/srt_config/share/srt_config/launch/setup_assistant.launch.py
 /home/parallels/liam-workspace/install/srt_config/share/srt_config/launch/moveit_rviz.launch.py
 /home/parallels/liam-workspace/install/srt_config/share/srt_config/config/srt.srdf
+/home/parallels/liam-workspace/install/srt_config/share/srt_config/config/srt_ros2_control.xacro
 /home/parallels/liam-workspace/install/srt_config/share/srt_config/config/initial_positions.yaml
 /home/parallels/liam-workspace/install/srt_config/share/srt_config/config/moveit_controllers.yaml
 /home/parallels/liam-workspace/install/srt_config/share/srt_config/config/srt.urdf.xacro
@@ -30,5 +31,4 @@
 /home/parallels/liam-workspace/install/srt_config/share/srt_config/config/ros2_controllers.yaml
 /home/parallels/liam-workspace/install/srt_config/share/srt_config/config/joint_limits.yaml
 /home/parallels/liam-workspace/install/srt_config/share/srt_config/config/kinematics.yaml
-/home/parallels/liam-workspace/install/srt_config/share/srt_config/config/srt.ros2_control.xacro
 /home/parallels/liam-workspace/install/srt_config/share/srt_config/.setup_assistant

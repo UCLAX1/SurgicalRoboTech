@@ -48,12 +48,13 @@ constexpr const char * const kExtraJointParameters[] = {
   "Velocity_I_Gain",
 };
 
-float radian_offset_0 = 3.06;
-float radian_offset_1 = 3.11;
-float radian_offset_2 = 3.19;
-float radian_offset_3 = 3.13;
-float radian_offset_4 = 3.29;
-float radian_offset_5 = -0.16;
+float radian_offset_0 = 0.0;
+float radian_offset_1 = 3.15;
+float joint_2_transmission_factor = -10;
+float radian_offset_2 = 3.14;
+float radian_offset_3 = 3.17;
+float radian_offset_4 = 3.11;
+float radian_offset_5 = -1.15;
 
 CallbackReturn DynamixelHardware::on_init(const hardware_interface::HardwareInfo & info)
 {
@@ -297,7 +298,7 @@ return_type DynamixelHardware::read(
       joints_[i].state.position = (dynamixel_workbench_.convertValue2Radian(ids[i], positions[i])) + radian_offset_0;
     }
     if(i == 1){
-      joints_[i].state.position = (dynamixel_workbench_.convertValue2Radian(ids[i], positions[i])) + radian_offset_1;
+      joints_[i].state.position = (dynamixel_workbench_.convertValue2Radian(ids[i], positions[i] / joint_2_transmission_factor)) + radian_offset_1;
     }
     if(i == 2){
       joints_[i].state.position = (dynamixel_workbench_.convertValue2Radian(ids[i], positions[i])) + radian_offset_2;
@@ -447,7 +448,7 @@ return_type DynamixelHardware::set_control_mode(const ControlMode & mode, const 
     }
 
     for (uint i = 0; i < joint_ids_.size(); ++i) {
-      if (!dynamixel_workbench_.setPositionControlMode(joint_ids_[i], &log)) {
+      if (!dynamixel_workbench_.setExtendedPositionControlMode(joint_ids_[i], &log)) {
         RCLCPP_FATAL(rclcpp::get_logger(kDynamixelHardware), "%s", log);
         return return_type::ERROR;
       }
@@ -500,7 +501,7 @@ CallbackReturn DynamixelHardware::set_joint_positions()
       commands[i] = dynamixel_workbench_.convertRadian2Value(ids[i], static_cast<float>(joints_[i].command.position - radian_offset_0));
     }
     if(i == 1){
-      commands[i] = dynamixel_workbench_.convertRadian2Value(ids[i], static_cast<float>(joints_[i].command.position - radian_offset_1));
+      commands[i] = dynamixel_workbench_.convertRadian2Value(ids[i], static_cast<float>(joints_[i].command.position - radian_offset_1)) * joint_2_transmission_factor;
     }
     if(i == 2){
       commands[i] = dynamixel_workbench_.convertRadian2Value(ids[i], static_cast<float>(joints_[i].command.position - radian_offset_2));
